@@ -1,6 +1,11 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.129.0/build/three.module.js';
+//Three.js: Esta es una biblioteca de JavaScript que permite crear y renderizar gráficos 3D en el navegador.
 import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js';
+//GLTFLoader: Este es un cargador específico de Three.js que permite importar modelos 3D en formato GLTF (GL Transmission Format).
 import { gsap } from 'https://cdn.skypack.dev/gsap';
+//GSAP (GreenSock Animation Platform): Esta es una biblioteca de JavaScript para crear animaciones de alta calidad y rendimiento. 
+
+//estas importaciones se utilizan bibliotecas para trabajar con gráficos 3D y animaciones en la web.
 
 const camera = new THREE.PerspectiveCamera(
     10,
